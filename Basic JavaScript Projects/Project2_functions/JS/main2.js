@@ -4,5 +4,12 @@ function My_First_Function() { //Defining a function and naming it
                                                             //with the "BUtton_Text" id
 }
 
-var str = new String("Font color Text");
+var str = new String("Font color text"); // Making a new string and making the font blue
 document.write(str.fontcolor( "blue" ));
+
+
+function myFunction() { //Definded and named a function
+    var sentence = "I am learning";
+    sentence += " a lot from this course!"; //concatenating "I am learning" & "a lot from this course"
+    document.getElementById("Concatenate").innerHTML = sentence; //Links the "Click here!" to the text above when clicked.
+}

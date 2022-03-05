@@ -5,10 +5,20 @@
     <script src="JS/main2.js"></script>
 </head>
 
+
 <body>
-    <button onclick="My_First_FUnction()" id="Button_Text">
+
+    <p id="Button_Text"></p>
+
+    <button onclick="My_First_Function()" id="Button_Text">
         Click me!
         </button>    
 
+    <script>
+        document.getElementById("Button_Text").innerHTML = "Hi everybody!"
+    </script>
+
+    <p id="Concatenate"></p>
+    <p id = "Concatenate" onclick = "myFunction()">Click Here!</p> 
 </body>
 </html>
