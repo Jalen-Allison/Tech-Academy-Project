@@ -9,7 +9,7 @@ document.write(str.fontcolor( "blue" ));
 
 
 function myFunction() { //Definded and named a function
-    var sentence = "I am learning";
-    sentence += " a lot from this course!"; //concatenating "I am learning" & "a lot from this course"
-    document.getElementById("Concatenate").innerHTML = sentence; //Links the "Click here!" to the text above when clicked.
+    var sentence = "I am learning"; //Defining the sentence as a variable
+    sentence += " a lot from this course!"; //concatenating "I am learning" & "a lot from this course" making it a sentence 
+    document.getElementById("Concatenate").innerHTML = sentence; //Links the "Click here!" to the sentence above and displays the sentence when clicked.
 }
